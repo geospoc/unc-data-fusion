@@ -13,3 +13,10 @@ Objective is to use PS image to predict Mapbox data to current date. This would 
 - PS(4.77m) & Mapbox Tiles (~0.5m pixel spacing). Course nature of PS doesn’t affect the features in the fused image. 
 
  
+#### Tasks at hand: 
+
+- Evaluate Automated coregistration (Geofolki?) 
+
+- Normalise both PS and Mapbox and resample PS to 0.5m 
+
+ 
