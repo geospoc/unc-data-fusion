@@ -34,7 +34,7 @@ Objective is to use PS image to predict Mapbox data to current date. This would 
 
 Data shortcoming in the fusion approach: If “p” is prediction date, “o” is observation date, M is mapbox basemap & P is Planetscope data; consider the fusion equation 
 
-                                                             ''' Mp = Mo  +[Pp-Po] ''' 
+                                                              Mp = Mo  +[Pp-Po]  
 
 for which Mo & Pp is available but Po i.e. the planetscope data for the observation date is unavailable. Planetscope archive is available (for a premium) from 2009 while mapbox basemaps at places date back to 2002. To overcome this we have requested you 2002-2007 Worldview samples on which we intend to apply a filter and bring it to PS equivalent resolution and use it as Po in the Fusion algorithm. 
 
