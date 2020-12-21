@@ -1,5 +1,5 @@
-# unc-data-fusion
-## Spatiotemporal Fusion for Planetscope(PS) and Mapbox tiles 
+# Spatiotemporal Fusion for Planetscope(PS) and Mapbox tiles 
+
 
 #### Objective
 
@@ -8,8 +8,8 @@ Objective is to use PS image to predict Mapbox data to current date. This would 
 
 #### Queries/Assumptions: 
 
--Temporal difference affects fused images and inturn the model predictions. 
+- Temporal difference affects fused images and inturn the model predictions. 
 
--PS(4.77m) & Mapbox Tiles (~0.5m pixel spacing). Course nature of PS doesn’t affect the features in the fused image. 
+- PS(4.77m) & Mapbox Tiles (~0.5m pixel spacing). Course nature of PS doesn’t affect the features in the fused image. 
 
  
