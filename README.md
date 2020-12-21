@@ -30,9 +30,7 @@ Objective is to use PS image to predict Mapbox data to current date. This would 
 
 4) Implement spatial and temporal adaptive reflectance fusion model (STARFM) algorithm to fuse Mapbox and Planet images. (Reference - Kwan, Chiman, et al. "Assessment of spatiotemporal fusion algorithms for planet and worldview images." Sensors 18.4 (2018): 1051.) .  
 
-5) The following changes are made in (4) inorder to suit our project requirement.  
-
-Data shortcoming in the fusion approach: If “p” is prediction date, “o” is observation date, M is mapbox basemap & P is Planetscope data; consider the fusion equation 
+5) The following changes are made in (4) inorder to suit our project requirement.  Data shortcoming in the fusion approach: If “p” is prediction date, “o” is observation date, M is mapbox basemap & P is Planetscope data; consider the fusion equation :
 
                                                               Mp = Mo  +[Pp-Po]  
 
